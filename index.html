@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>CRUD App</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Users</h1>
+    <div id="user-list"></div>
+    <div id="user-details"></div>
+    <div id="edit-form" style="display: none;">
+      <h2 id="edit-heading">Add User</h2>
+      <input type="text" id="edit-name" placeholder="Enter name">
+      <input type="email" id="edit-email" placeholder="Enter email">
+      <button onclick="saveUser()">Save</button>
+    </div>
+    <button onclick="showAddUserForm()">Add User</button>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
+
